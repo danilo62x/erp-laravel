@@ -1,0 +1,413 @@
+{
+  "brand": "Fluxo ERP",
+  "common": {
+    "search": "Buscar",
+    "noResults": "Nenhum resultado encontrado",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "showing": "Mostrando {{from}}–{{to}} de {{total}}",
+    "theme": "Tema",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "create": "Criar",
+    "edit": "Editar",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "nav": {
+    "features": "Recursos",
+    "pricing": "Preços",
+    "about": "Sobre",
+    "contact": "Contato",
+    "login": "Entrar",
+    "getStarted": "Começar agora",
+    "dashboard": "Painel"
+  },
+  "appNav": {
+    "overview": "Visão geral",
+    "finance": "Financeiro",
+    "documents": "Documentos",
+    "preferences": "Preferências",
+    "dashboard": "Painel",
+    "payable": "Contas a Pagar",
+    "receivable": "Contas a Receber",
+    "entries": "Lançamentos",
+    "cashflow": "Fluxo de Caixa",
+    "invoices": "Notas Fiscais",
+    "reports": "Relatórios (DRE)",
+    "settings": "Configurações",
+    "collapse": "Recolher menu",
+    "logout": "Sair",
+    "searchPlaceholder": "Buscar lançamentos, notas...",
+    "notifications": "Notificações",
+    "proTitle": "Resultado do mês",
+    "proDesc": "Acompanhe seu DRE",
+    "viewReports": "Ver relatórios"
+  },
+  "notifications": {
+    "overdue": "Conta vencida: {{name}}",
+    "received": "Recebimento confirmado: {{name}}",
+    "dueSoon": "Vencimento próximo: {{name}}"
+  },
+  "cookie": {
+    "title": "Usamos cookies",
+    "desc": "Utilizamos cookies para melhorar sua experiência.",
+    "policy": "Política de privacidade",
+    "accept": "Aceitar",
+    "decline": "Recusar"
+  },
+  "entryType": {
+    "receita": "Receita",
+    "despesa": "Despesa"
+  },
+  "status": {
+    "pago": "Pago",
+    "pendente": "Pendente",
+    "vencido": "Vencido"
+  },
+  "costCenter": {
+    "comercial": "Comercial",
+    "operacoes": "Operações",
+    "administrativo": "Administrativo",
+    "financeiro": "Financeiro",
+    "marketing": "Marketing",
+    "ti": "TI"
+  },
+  "category": {
+    "receita_operacional": "Receita operacional",
+    "receita_financeira": "Receita financeira",
+    "custo": "Custos",
+    "despesa_operacional": "Despesa operacional",
+    "despesa_pessoal": "Pessoal",
+    "despesa_financeira": "Despesa financeira",
+    "imposto": "Impostos"
+  },
+  "due": {
+    "overdueBy": "{{days}}d em atraso",
+    "inDays": "em {{days}}d"
+  },
+  "filters": {
+    "search": "Buscar por descrição, categoria...",
+    "allStatus": "Todos os status",
+    "allCategories": "Todas as categorias",
+    "allTypes": "Todos os tipos",
+    "clear": "Limpar",
+    "period": {
+      "all": "Todo o período",
+      "30d": "Últimos 30 dias",
+      "90d": "Últimos 90 dias",
+      "180d": "Últimos 180 dias"
+    }
+  },
+  "table": {
+    "description": "Descrição",
+    "party": "Contraparte",
+    "dueDate": "Vencimento",
+    "status": "Status",
+    "amount": "Valor",
+    "lastUpdated": "Atualizado em {{date}}"
+  },
+  "entryForm": {
+    "newTitle": "Novo lançamento",
+    "newSubtitle": "Registre uma nova receita ou despesa",
+    "editTitle": "Editar lançamento",
+    "editSubtitle": "Atualize os dados do lançamento",
+    "description": "Descrição",
+    "descriptionPh": "Ex.: Venda pedido #1042",
+    "type": "Tipo",
+    "amount": "Valor (R$)",
+    "category": "Categoria (plano de contas)",
+    "dueDate": "Vencimento",
+    "account": "Conta bancária",
+    "costCenter": "Centro de custo",
+    "cliente": "Cliente",
+    "fornecedor": "Fornecedor",
+    "invoice": "Nº da nota",
+    "created": "Lançamento criado",
+    "updated": "Lançamento atualizado"
+  },
+  "entryDetail": {
+    "title": "Detalhe do lançamento",
+    "paidOn": "Pago em",
+    "reconciled": "Conciliado",
+    "markPaid": "Marcar como pago",
+    "markedPaid": "Lançamento liquidado",
+    "toggleReconcile": "Alternar conciliação"
+  },
+  "form": {
+    "required": "Campo obrigatório",
+    "min": "Mínimo de {{n}} caracteres",
+    "number": "Informe um número válido",
+    "positive": "O valor deve ser positivo",
+    "choose": "Selecione..."
+  },
+  "auth": {
+    "loginTitle": "Bem-vindo de volta",
+    "loginSubtitle": "Acesse o painel financeiro da sua empresa",
+    "registerTitle": "Crie sua conta",
+    "registerSubtitle": "Comece a gerenciar o financeiro em minutos",
+    "email": "E-mail",
+    "password": "Senha",
+    "name": "Nome da empresa",
+    "namePh": "Ex.: Minha Empresa Ltda",
+    "remember": "Lembrar de mim",
+    "forgot": "Esqueceu a senha?",
+    "loginCta": "Entrar",
+    "loggingIn": "Entrando...",
+    "registerCta": "Criar conta",
+    "noAccount": "Ainda não tem conta?",
+    "haveAccount": "Já tem uma conta?",
+    "loginSuccess": "Login realizado com sucesso",
+    "loginError": "Não foi possível entrar. Verifique os dados.",
+    "registerSuccess": "Conta criada com sucesso",
+    "demoTitle": "Conta demonstração",
+    "demoHint": "Qualquer e-mail e senha funcionam."
+  },
+  "dashboard": {
+    "title": "Painel financeiro",
+    "subtitle": "Visão geral de caixa, contas e resultado",
+    "totalBalance": "Saldo em caixa",
+    "receivable": "A receber",
+    "payable": "A pagar",
+    "overdue": "Vencidos",
+    "acrossAccounts": "Em {{n}} contas",
+    "openReceivable": "Em aberto",
+    "openPayable": "Em aberto",
+    "needsAttention": "Requer atenção",
+    "cashflowTitle": "Fluxo de caixa",
+    "monthResult": "Resultado do mês",
+    "expensesByCategory": "Despesas por categoria",
+    "revenueVsExpense": "Receita x Despesa",
+    "dueSoon": "Próximos vencimentos",
+    "recentEntries": "Lançamentos recentes",
+    "allClear": "Nada a vencer",
+    "thisMonth": "este mês"
+  },
+  "payable": {
+    "title": "Contas a Pagar",
+    "subtitle": "Despesas e obrigações com fornecedores",
+    "open": "Total em aberto",
+    "overdue": "Vencido",
+    "total": "Total no período"
+  },
+  "receivable": {
+    "title": "Contas a Receber",
+    "subtitle": "Receitas e cobranças de clientes",
+    "open": "Total em aberto",
+    "overdue": "Vencido",
+    "total": "Total no período"
+  },
+  "entries": {
+    "title": "Lançamentos",
+    "subtitle": "Razão completo de receitas e despesas"
+  },
+  "cashflow": {
+    "title": "Fluxo de Caixa",
+    "subtitle": "Projeção de entradas e saídas por período",
+    "projection": "Projeção de caixa",
+    "byPeriod": "Detalhamento por período",
+    "period": "Período",
+    "inflow": "Entradas",
+    "outflow": "Saídas",
+    "net": "Líquido",
+    "balance": "Saldo projetado",
+    "projected": "projeção"
+  },
+  "invoices": {
+    "title": "Notas Fiscais",
+    "subtitle": "Documentos fiscais de entrada e saída",
+    "number": "Número",
+    "type": "Tipo",
+    "issueDate": "Emissão",
+    "tax": "Tributos",
+    "amount": "Valor",
+    "searchPh": "Buscar por número...",
+    "allTypes": "Todos os tipos",
+    "types": {
+      "entrada": "Entrada",
+      "saida": "Saída"
+    },
+    "statuses": {
+      "autorizada": "Autorizada",
+      "pendente": "Pendente",
+      "cancelada": "Cancelada"
+    }
+  },
+  "reports": {
+    "title": "Relatórios (DRE)",
+    "subtitle": "Demonstração do Resultado do Exercício",
+    "revenueLiquid": "Receita líquida",
+    "grossProfit": "Lucro bruto",
+    "netResult": "Resultado líquido",
+    "netMargin": "Margem líquida",
+    "dreTitle": "Demonstração de resultado",
+    "competence": "Valores por competência (vencimento)",
+    "byCostCenter": "Resultado por centro de custo",
+    "periods": {
+      "0": "Mês atual",
+      "2": "Últimos 3 meses",
+      "5": "Últimos 6 meses"
+    },
+    "lines": {
+      "receitaBruta": "Receita operacional bruta",
+      "deducoes": "(−) Impostos e deduções",
+      "receitaLiquida": "= Receita líquida",
+      "custos": "(−) Custos",
+      "lucroBruto": "= Lucro bruto",
+      "despesasOperacionais": "(−) Despesas operacionais",
+      "resultadoOperacional": "= Resultado operacional",
+      "receitasFinanceiras": "(+) Receitas financeiras",
+      "despesasFinanceiras": "(−) Despesas financeiras",
+      "resultadoLiquido": "= Resultado líquido"
+    }
+  },
+  "settings": {
+    "title": "Configurações",
+    "subtitle": "Empresa, contas e preferências",
+    "saved": "Alterações salvas",
+    "role": "Função",
+    "companyName": "Razão social",
+    "cnpj": "CNPJ",
+    "bankAccounts": "Contas bancárias",
+    "group": "Grupo",
+    "tabs": {
+      "profile": "Perfil",
+      "company": "Empresa",
+      "chart": "Plano de contas",
+      "notifications": "Notificações"
+    },
+    "notif": {
+      "overdueAlert": { "title": "Contas vencidas", "desc": "Alerta quando uma conta vence" },
+      "dueSoonAlert": { "title": "Vencimentos próximos", "desc": "Aviso 3 dias antes do vencimento" },
+      "newInvoice": { "title": "Novas notas fiscais", "desc": "Notificar emissão e recebimento" },
+      "monthlyReport": { "title": "Relatório mensal", "desc": "Resumo do DRE por e-mail" },
+      "reconcileReminder": { "title": "Conciliação", "desc": "Lembrete de conciliação bancária" }
+    }
+  },
+  "features": {
+    "title": "Tudo o que o financeiro da sua empresa precisa",
+    "subtitle": "Da emissão ao DRE, em uma única plataforma.",
+    "items": {
+      "payable": { "title": "Contas a pagar", "desc": "Controle vencimentos, fornecedores e aprovações de pagamento." },
+      "receivable": { "title": "Contas a receber", "desc": "Acompanhe cobranças, recebimentos e inadimplência de clientes." },
+      "cashflow": { "title": "Fluxo de caixa", "desc": "Projeção diária e mensal de entradas e saídas." },
+      "entries": { "title": "Lançamentos", "desc": "Razão completo por categoria, centro de custo e conta." },
+      "invoices": { "title": "Notas fiscais", "desc": "Gestão de documentos fiscais de entrada e saída." },
+      "dre": { "title": "DRE e relatórios", "desc": "Demonstração de resultado por período e centro de custo." },
+      "reconcile": { "title": "Conciliação bancária", "desc": "Concilie lançamentos com extratos das suas contas." },
+      "chart": { "title": "Plano de contas", "desc": "Estruture categorias contábeis flexíveis." },
+      "security": { "title": "Segurança", "desc": "Controle de acesso e auditoria de operações." }
+    }
+  },
+  "pricing": {
+    "title": "Planos para cada porte de empresa",
+    "subtitle": "Sem fidelidade. Cancele quando quiser.",
+    "popular": "Mais popular",
+    "choose": "Escolher plano",
+    "plans": {
+      "starter": { "name": "Starter", "price": "R$ 49", "period": "por mês" },
+      "business": { "name": "Business", "price": "R$ 149", "period": "por mês" },
+      "enterprise": { "name": "Enterprise", "price": "Sob consulta", "period": "faturamento anual" }
+    },
+    "features": {
+      "f1": "Contas a pagar e receber",
+      "f2": "Fluxo de caixa",
+      "f3": "Até 2 usuários",
+      "f4": "DRE e relatórios",
+      "f5": "Conciliação bancária",
+      "f6": "Usuários e suporte ilimitados"
+    }
+  },
+  "about": {
+    "title": "Sobre o Fluxo ERP",
+    "subtitle": "Gestão financeira empresarial simples e poderosa.",
+    "body1": "O Fluxo ERP nasceu para descomplicar o financeiro de pequenas e médias empresas, unindo contas a pagar e receber, fluxo de caixa e DRE em um só lugar.",
+    "body2": "Nossa missão é dar clareza sobre o caixa e o resultado do negócio, para que gestores tomem decisões com confiança.",
+    "stats": {
+      "companies": { "value": "8 mil+", "label": "Empresas" },
+      "volume": { "value": "R$ 4 bi", "label": "Movimentados/ano" },
+      "team": { "value": "120", "label": "Colaboradores" },
+      "years": { "value": "9", "label": "Anos de mercado" }
+    },
+    "values": {
+      "trust": { "title": "Confiança", "desc": "Dados protegidos e operações auditáveis." },
+      "speed": { "title": "Agilidade", "desc": "Fechamento financeiro em minutos, não dias." },
+      "care": { "title": "Cuidado", "desc": "Suporte humano que entende do seu negócio." }
+    }
+  },
+  "contact": {
+    "title": "Fale com a gente",
+    "subtitle": "Tire dúvidas ou agende uma demonstração.",
+    "sent": "Mensagem enviada",
+    "thanksTitle": "Recebemos sua mensagem",
+    "thanksBody": "Nossa equipe responderá em até um dia útil.",
+    "channels": {
+      "email": { "label": "E-mail", "value": "contato@fluxoerp.com.br" },
+      "phone": { "label": "Telefone", "value": "+55 (11) 4000-0000" },
+      "address": { "label": "Endereço", "value": "Av. Paulista, 1000 — São Paulo, SP" }
+    },
+    "form": {
+      "name": "Seu nome",
+      "email": "Seu e-mail",
+      "company": "Empresa",
+      "message": "Mensagem",
+      "submit": "Enviar mensagem"
+    }
+  },
+  "landing": {
+    "hero": {
+      "badge": "ERP financeiro empresarial",
+      "title": "O financeiro da sua empresa sob controle",
+      "subtitle": "Contas a pagar e receber, fluxo de caixa e DRE em uma plataforma simples e poderosa.",
+      "ctaPrimary": "Começar grátis",
+      "ctaSecondary": "Ver recursos",
+      "noCard": "Não exige cartão de crédito.",
+      "cardLabel": "Saldo consolidado"
+    },
+    "stats": {
+      "companies": { "value": "8 mil+", "label": "Empresas ativas" },
+      "volume": { "value": "R$ 4 bi", "label": "Movimentados/ano" },
+      "rating": { "value": "4,9/5", "label": "Avaliação média" },
+      "uptime": { "value": "99,9%", "label": "Disponibilidade" }
+    },
+    "features": {
+      "title": "Controle total do seu financeiro",
+      "subtitle": "Tudo o que você precisa para gerir o caixa da empresa.",
+      "items": {
+        "payable": { "title": "Contas a pagar", "desc": "Vencimentos, fornecedores e pagamentos." },
+        "receivable": { "title": "Contas a receber", "desc": "Cobranças, recebimentos e inadimplência." },
+        "cashflow": { "title": "Fluxo de caixa", "desc": "Projeção de entradas e saídas." },
+        "invoices": { "title": "Notas fiscais", "desc": "Documentos de entrada e saída." },
+        "dre": { "title": "DRE", "desc": "Resultado por período e centro de custo." },
+        "security": { "title": "Segurança", "desc": "Acesso controlado e auditável." }
+      }
+    },
+    "plans": {
+      "title": "Planos que cabem no seu orçamento",
+      "subtitle": "Comece grátis e evolua conforme a empresa cresce."
+    },
+    "testimonials": {
+      "title": "Empresas que confiam no Fluxo ERP",
+      "t1": { "quote": "Reduzimos o fechamento financeiro de 5 dias para algumas horas.", "author": "Marina Alves — CFO, Aurora" },
+      "t2": { "quote": "Finalmente enxergamos o fluxo de caixa com clareza.", "author": "Rafael Lima — Sócio, MetalForte" },
+      "t3": { "quote": "O DRE automático mudou nossa tomada de decisão.", "author": "Camila Souza — Controller, TechNova" }
+    },
+    "cta": {
+      "title": "Pronto para organizar o financeiro?",
+      "subtitle": "Crie sua conta gratuita e veja seu caixa em tempo real.",
+      "button": "Começar agora"
+    },
+    "footer": {
+      "tagline": "Gestão financeira empresarial: contas a pagar/receber, fluxo de caixa e DRE.",
+      "legal": "Fluxo ERP é um template de demonstração. Não é uma instituição financeira.",
+      "privacy": "Privacidade",
+      "rights": "Todos os direitos reservados.",
+      "docs": "Documentação",
+      "help": "Ajuda"
+    }
+  },
+  "notFound": {
+    "message": "A página que você procura não existe ou foi movida.",
+    "back": "Voltar ao início"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "brand": "Fluxo ERP",
+  "common": {
+    "search": "Search",
+    "noResults": "No results found",
+    "previous": "Previous",
+    "next": "Next",
+    "showing": "Showing {{from}}–{{to}} of {{total}}",
+    "theme": "Theme",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create": "Create",
+    "edit": "Edit",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Sign in",
+    "getStarted": "Get started",
+    "dashboard": "Dashboard"
+  },
+  "appNav": {
+    "overview": "Overview",
+    "finance": "Finance",
+    "documents": "Documents",
+    "preferences": "Preferences",
+    "dashboard": "Dashboard",
+    "payable": "Accounts Payable",
+    "receivable": "Accounts Receivable",
+    "entries": "Ledger Entries",
+    "cashflow": "Cash Flow",
+    "invoices": "Invoices",
+    "reports": "Reports (P&L)",
+    "settings": "Settings",
+    "collapse": "Collapse menu",
+    "logout": "Sign out",
+    "searchPlaceholder": "Search entries, invoices...",
+    "notifications": "Notifications",
+    "proTitle": "Month result",
+    "proDesc": "Track your P&L",
+    "viewReports": "View reports"
+  },
+  "notifications": {
+    "overdue": "Overdue bill: {{name}}",
+    "received": "Payment received: {{name}}",
+    "dueSoon": "Due soon: {{name}}"
+  },
+  "cookie": {
+    "title": "We use cookies",
+    "desc": "We use cookies to improve your experience.",
+    "policy": "Privacy policy",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
+  "entryType": {
+    "receita": "Revenue",
+    "despesa": "Expense"
+  },
+  "status": {
+    "pago": "Paid",
+    "pendente": "Pending",
+    "vencido": "Overdue"
+  },
+  "costCenter": {
+    "comercial": "Sales",
+    "operacoes": "Operations",
+    "administrativo": "Administrative",
+    "financeiro": "Finance",
+    "marketing": "Marketing",
+    "ti": "IT"
+  },
+  "category": {
+    "receita_operacional": "Operating revenue",
+    "receita_financeira": "Financial revenue",
+    "custo": "Costs",
+    "despesa_operacional": "Operating expense",
+    "despesa_pessoal": "Payroll",
+    "despesa_financeira": "Financial expense",
+    "imposto": "Taxes"
+  },
+  "due": {
+    "overdueBy": "{{days}}d overdue",
+    "inDays": "in {{days}}d"
+  },
+  "filters": {
+    "search": "Search by description, category...",
+    "allStatus": "All statuses",
+    "allCategories": "All categories",
+    "allTypes": "All types",
+    "clear": "Clear",
+    "period": {
+      "all": "All time",
+      "30d": "Last 30 days",
+      "90d": "Last 90 days",
+      "180d": "Last 180 days"
+    }
+  },
+  "table": {
+    "description": "Description",
+    "party": "Counterparty",
+    "dueDate": "Due date",
+    "status": "Status",
+    "amount": "Amount",
+    "lastUpdated": "Updated on {{date}}"
+  },
+  "entryForm": {
+    "newTitle": "New entry",
+    "newSubtitle": "Record a new revenue or expense",
+    "editTitle": "Edit entry",
+    "editSubtitle": "Update the entry details",
+    "description": "Description",
+    "descriptionPh": "e.g. Sale order #1042",
+    "type": "Type",
+    "amount": "Amount (R$)",
+    "category": "Category (chart of accounts)",
+    "dueDate": "Due date",
+    "account": "Bank account",
+    "costCenter": "Cost center",
+    "cliente": "Client",
+    "fornecedor": "Supplier",
+    "invoice": "Invoice no.",
+    "created": "Entry created",
+    "updated": "Entry updated"
+  },
+  "entryDetail": {
+    "title": "Entry details",
+    "paidOn": "Paid on",
+    "reconciled": "Reconciled",
+    "markPaid": "Mark as paid",
+    "markedPaid": "Entry settled",
+    "toggleReconcile": "Toggle reconciliation"
+  },
+  "form": {
+    "required": "Required field",
+    "min": "Minimum of {{n}} characters",
+    "number": "Enter a valid number",
+    "positive": "Amount must be positive",
+    "choose": "Select..."
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Access your company's finance dashboard",
+    "registerTitle": "Create your account",
+    "registerSubtitle": "Start managing finances in minutes",
+    "email": "Email",
+    "password": "Password",
+    "name": "Company name",
+    "namePh": "e.g. My Company Inc.",
+    "remember": "Remember me",
+    "forgot": "Forgot password?",
+    "loginCta": "Sign in",
+    "loggingIn": "Signing in...",
+    "registerCta": "Create account",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "loginSuccess": "Signed in successfully",
+    "loginError": "Could not sign in. Check your details.",
+    "registerSuccess": "Account created successfully",
+    "demoTitle": "Demo account",
+    "demoHint": "Any email and password work."
+  },
+  "dashboard": {
+    "title": "Finance dashboard",
+    "subtitle": "Overview of cash, accounts and results",
+    "totalBalance": "Cash balance",
+    "receivable": "Receivable",
+    "payable": "Payable",
+    "overdue": "Overdue",
+    "acrossAccounts": "Across {{n}} accounts",
+    "openReceivable": "Open",
+    "openPayable": "Open",
+    "needsAttention": "Needs attention",
+    "cashflowTitle": "Cash flow",
+    "monthResult": "Month result",
+    "expensesByCategory": "Expenses by category",
+    "revenueVsExpense": "Revenue vs Expense",
+    "dueSoon": "Upcoming due",
+    "recentEntries": "Recent entries",
+    "allClear": "Nothing due",
+    "thisMonth": "this month"
+  },
+  "payable": {
+    "title": "Accounts Payable",
+    "subtitle": "Expenses and supplier obligations",
+    "open": "Total open",
+    "overdue": "Overdue",
+    "total": "Total in period"
+  },
+  "receivable": {
+    "title": "Accounts Receivable",
+    "subtitle": "Revenue and customer collections",
+    "open": "Total open",
+    "overdue": "Overdue",
+    "total": "Total in period"
+  },
+  "entries": {
+    "title": "Ledger Entries",
+    "subtitle": "Full ledger of revenue and expenses"
+  },
+  "cashflow": {
+    "title": "Cash Flow",
+    "subtitle": "Projection of inflows and outflows by period",
+    "projection": "Cash projection",
+    "byPeriod": "Breakdown by period",
+    "period": "Period",
+    "inflow": "Inflows",
+    "outflow": "Outflows",
+    "net": "Net",
+    "balance": "Projected balance",
+    "projected": "projected"
+  },
+  "invoices": {
+    "title": "Invoices",
+    "subtitle": "Inbound and outbound fiscal documents",
+    "number": "Number",
+    "type": "Type",
+    "issueDate": "Issued",
+    "tax": "Taxes",
+    "amount": "Amount",
+    "searchPh": "Search by number...",
+    "allTypes": "All types",
+    "types": {
+      "entrada": "Inbound",
+      "saida": "Outbound"
+    },
+    "statuses": {
+      "autorizada": "Authorized",
+      "pendente": "Pending",
+      "cancelada": "Cancelled"
+    }
+  },
+  "reports": {
+    "title": "Reports (P&L)",
+    "subtitle": "Profit & Loss statement",
+    "revenueLiquid": "Net revenue",
+    "grossProfit": "Gross profit",
+    "netResult": "Net result",
+    "netMargin": "Net margin",
+    "dreTitle": "Income statement",
+    "competence": "Accrual values (by due date)",
+    "byCostCenter": "Result by cost center",
+    "periods": {
+      "0": "Current month",
+      "2": "Last 3 months",
+      "5": "Last 6 months"
+    },
+    "lines": {
+      "receitaBruta": "Gross operating revenue",
+      "deducoes": "(−) Taxes and deductions",
+      "receitaLiquida": "= Net revenue",
+      "custos": "(−) Costs",
+      "lucroBruto": "= Gross profit",
+      "despesasOperacionais": "(−) Operating expenses",
+      "resultadoOperacional": "= Operating result",
+      "receitasFinanceiras": "(+) Financial revenue",
+      "despesasFinanceiras": "(−) Financial expenses",
+      "resultadoLiquido": "= Net result"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Company, accounts and preferences",
+    "saved": "Changes saved",
+    "role": "Role",
+    "companyName": "Legal name",
+    "cnpj": "Tax ID",
+    "bankAccounts": "Bank accounts",
+    "group": "Group",
+    "tabs": {
+      "profile": "Profile",
+      "company": "Company",
+      "chart": "Chart of accounts",
+      "notifications": "Notifications"
+    },
+    "notif": {
+      "overdueAlert": { "title": "Overdue bills", "desc": "Alert when a bill becomes overdue" },
+      "dueSoonAlert": { "title": "Upcoming due dates", "desc": "Notice 3 days before the due date" },
+      "newInvoice": { "title": "New invoices", "desc": "Notify on issuance and receipt" },
+      "monthlyReport": { "title": "Monthly report", "desc": "P&L summary by email" },
+      "reconcileReminder": { "title": "Reconciliation", "desc": "Bank reconciliation reminder" }
+    }
+  },
+  "features": {
+    "title": "Everything your company's finance needs",
+    "subtitle": "From issuing to P&L, on a single platform.",
+    "items": {
+      "payable": { "title": "Accounts payable", "desc": "Control due dates, suppliers and payment approvals." },
+      "receivable": { "title": "Accounts receivable", "desc": "Track collections, receipts and customer overdues." },
+      "cashflow": { "title": "Cash flow", "desc": "Daily and monthly projection of inflows and outflows." },
+      "entries": { "title": "Ledger entries", "desc": "Full ledger by category, cost center and account." },
+      "invoices": { "title": "Invoices", "desc": "Manage inbound and outbound fiscal documents." },
+      "dre": { "title": "P&L and reports", "desc": "Income statement by period and cost center." },
+      "reconcile": { "title": "Bank reconciliation", "desc": "Reconcile entries with your account statements." },
+      "chart": { "title": "Chart of accounts", "desc": "Structure flexible accounting categories." },
+      "security": { "title": "Security", "desc": "Access control and operation auditing." }
+    }
+  },
+  "pricing": {
+    "title": "Plans for every company size",
+    "subtitle": "No lock-in. Cancel anytime.",
+    "popular": "Most popular",
+    "choose": "Choose plan",
+    "plans": {
+      "starter": { "name": "Starter", "price": "$ 49", "period": "per month" },
+      "business": { "name": "Business", "price": "$ 149", "period": "per month" },
+      "enterprise": { "name": "Enterprise", "price": "Contact us", "period": "annual billing" }
+    },
+    "features": {
+      "f1": "Accounts payable and receivable",
+      "f2": "Cash flow",
+      "f3": "Up to 2 users",
+      "f4": "P&L and reports",
+      "f5": "Bank reconciliation",
+      "f6": "Unlimited users and support"
+    }
+  },
+  "about": {
+    "title": "About Fluxo ERP",
+    "subtitle": "Simple and powerful business finance management.",
+    "body1": "Fluxo ERP was created to simplify finance for small and medium businesses, bringing accounts payable and receivable, cash flow and P&L together in one place.",
+    "body2": "Our mission is to provide clarity on cash and business results so managers can make confident decisions.",
+    "stats": {
+      "companies": { "value": "8k+", "label": "Companies" },
+      "volume": { "value": "$ 4B", "label": "Processed/year" },
+      "team": { "value": "120", "label": "Team members" },
+      "years": { "value": "9", "label": "Years in market" }
+    },
+    "values": {
+      "trust": { "title": "Trust", "desc": "Protected data and auditable operations." },
+      "speed": { "title": "Speed", "desc": "Financial close in minutes, not days." },
+      "care": { "title": "Care", "desc": "Human support that understands your business." }
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Ask questions or book a demo.",
+    "sent": "Message sent",
+    "thanksTitle": "We received your message",
+    "thanksBody": "Our team will reply within one business day.",
+    "channels": {
+      "email": { "label": "Email", "value": "contact@fluxoerp.com" },
+      "phone": { "label": "Phone", "value": "+55 (11) 4000-0000" },
+      "address": { "label": "Address", "value": "Av. Paulista, 1000 — São Paulo, BR" }
+    },
+    "form": {
+      "name": "Your name",
+      "email": "Your email",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send message"
+    }
+  },
+  "landing": {
+    "hero": {
+      "badge": "Business financial ERP",
+      "title": "Your company's finances under control",
+      "subtitle": "Accounts payable and receivable, cash flow and P&L on one simple, powerful platform.",
+      "ctaPrimary": "Start free",
+      "ctaSecondary": "See features",
+      "noCard": "No credit card required.",
+      "cardLabel": "Consolidated balance"
+    },
+    "stats": {
+      "companies": { "value": "8k+", "label": "Active companies" },
+      "volume": { "value": "$ 4B", "label": "Processed/year" },
+      "rating": { "value": "4.9/5", "label": "Average rating" },
+      "uptime": { "value": "99.9%", "label": "Uptime" }
+    },
+    "features": {
+      "title": "Full control of your finances",
+      "subtitle": "Everything you need to manage company cash.",
+      "items": {
+        "payable": { "title": "Accounts payable", "desc": "Due dates, suppliers and payments." },
+        "receivable": { "title": "Accounts receivable", "desc": "Collections, receipts and overdues." },
+        "cashflow": { "title": "Cash flow", "desc": "Projection of inflows and outflows." },
+        "invoices": { "title": "Invoices", "desc": "Inbound and outbound documents." },
+        "dre": { "title": "P&L", "desc": "Result by period and cost center." },
+        "security": { "title": "Security", "desc": "Controlled, auditable access." }
+      }
+    },
+    "plans": {
+      "title": "Plans that fit your budget",
+      "subtitle": "Start free and scale as your company grows."
+    },
+    "testimonials": {
+      "title": "Companies that trust Fluxo ERP",
+      "t1": { "quote": "We cut financial close from 5 days to a few hours.", "author": "Marina Alves — CFO, Aurora" },
+      "t2": { "quote": "We finally see our cash flow clearly.", "author": "Rafael Lima — Partner, MetalForte" },
+      "t3": { "quote": "Automated P&L changed our decision-making.", "author": "Camila Souza — Controller, TechNova" }
+    },
+    "cta": {
+      "title": "Ready to organize your finances?",
+      "subtitle": "Create your free account and see your cash in real time.",
+      "button": "Get started"
+    },
+    "footer": {
+      "tagline": "Business finance: accounts payable/receivable, cash flow and P&L.",
+      "legal": "Fluxo ERP is a demo template. Not a financial institution.",
+      "privacy": "Privacy",
+      "rights": "All rights reserved.",
+      "docs": "Documentation",
+      "help": "Help"
+    }
+  },
+  "notFound": {
+    "message": "The page you are looking for doesn't exist or was moved.",
+    "back": "Back to home"
+  }
+}
